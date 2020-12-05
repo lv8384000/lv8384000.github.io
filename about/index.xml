@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on 小明同学</title>
+    <link>https://lv8384000.github.io/about/</link>
+    <description>Recent content in Abouts on 小明同学</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lv8384000.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于Git更新</title>
+      <link>https://lv8384000.github.io/about/about/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lv8384000.github.io/about/about/</guid>
+      <description>第一次生成public hugo &amp;ndash;theme=项目名 &amp;ndash;baseUrl=&amp;ldquo;https://仓库名.github.io/&amp;rdquo; &amp;ndash;buildDrafts //关联到远端仓库生成Public文件夹
+git init
+git add .
+git commit -m &amp;quot;&amp;quot;
+git remote add origin https://github.com/xxx/xxx.github.io.git //填写自己的域名
+git push -u origin master
+第二次生成public 假设你已经完成.md更新
+cd public
+git init
+git remote add origin https://github.com/xxx/xxx.github.io.git //填写自己的域名
+git add -A
+git commit -m &amp;ldquo;update-hugo&amp;rdquo;
+git push -f origin master</description>
+    </item>
+    
+  </channel>
+</rss>
